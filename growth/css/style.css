@@ -203,6 +203,44 @@ img {
   color: #fff;
 }
 
+/* Footer */
+.footer {
+  padding: 40px 0;
+}
+.footer h4 {
+  margin-bottom: 10px;
+}
+.footer ul li {
+  line-height: 2.5;
+}
+.footer ul li a {
+  color: #ccc;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr);
+  gap: 30px;
+}
+.footer .card {
+  margin: 30px 0 10px;
+}
+.footer form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer form input {
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.footer i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
 /* Utility Classes */
 /* Containers */
 .container {
