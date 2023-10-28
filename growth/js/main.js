@@ -6,3 +6,9 @@ faqHeader.forEach((header) => {
     header.querySelector("i").classList.toggle("fa-plus");
   });
 });
+
+const navHamburgerButton = document.querySelector(".hamburger-button");
+const mobileMenu = document.querySelector(".mobile-menu");
+navHamburgerButton.addEventListener("click", () => {
+  mobileMenu.classList.toggle("active");
+});
