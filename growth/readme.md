@@ -6,4 +6,4 @@ https://www.youtube.com/watch?v=HXYZxVbWkjc&t
 
 # TODOs
 - [x] make testimonials scrollable
-- [ ] make testimonial card height auto
+- [x] make testimonial card height auto

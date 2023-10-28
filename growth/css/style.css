@@ -301,6 +301,8 @@ img {
   color: #000;
   border-radius: 10px;
   padding: 20px;
+  /* this makes the grid item takes up only the space it needs based on its content */
+  align-self: start;
 }
 /* Background */
 .bg-primary {
