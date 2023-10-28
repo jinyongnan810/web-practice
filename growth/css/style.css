@@ -124,6 +124,33 @@ img {
   font-weight: 300;
   font-size: 0.8rem;
 }
+/* Pricing */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.pricing-card-subheading {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.pricing-card-price {
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+.pricing-card-body ul {
+  margin: 30px 0;
+}
+.pricing-card-body ul li {
+  margin-bottom: 20px;
+}
+.pricing-card-body ul li i {
+  margin-right: 10px;
+}
+.pricing-footer {
+  margin: 20px 0;
+}
 
 /* Utility Classes */
 /* Containers */
@@ -137,6 +164,13 @@ img {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
+}
+/* Cards */
+.card {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
 }
 /* Background */
 .bg-primary {
@@ -168,6 +202,7 @@ img {
   border: none;
   cursor: pointer;
   transition: 0.5s;
+  text-align: center;
 }
 .btn:hover {
   opacity: 0.8;
@@ -221,11 +256,4 @@ img {
 }
 .text-center {
   text-align: center;
-}
-/* Cards */
-.card {
-  background-color: #fff;
-  color: #000;
-  border-radius: 10px;
-  padding: 20px;
 }
