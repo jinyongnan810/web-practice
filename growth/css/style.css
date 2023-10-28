@@ -92,6 +92,39 @@ img {
   align-items: center;
 }
 
+/* Testimonials */
+.testimonials {
+  padding: 20px 0;
+}
+.testimonials-heading {
+  width: 700px;
+  margin-bottom: 40px;
+}
+.testimonials-content {
+  overflow-x: scroll;
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  overflow-x: scroll;
+}
+.testimonials-grid .card {
+  width: 300px;
+}
+.testimonials-text {
+  font-style: italic;
+  font-weight: 300;
+}
+.testimonials-name {
+  font-weight: 700;
+  margin-top: 10px;
+}
+.testimonials-from {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
 /* Utility Classes */
 /* Containers */
 .container {
@@ -188,4 +221,11 @@ img {
 }
 .text-center {
   text-align: center;
+}
+/* Cards */
+.card {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
 }
